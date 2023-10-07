@@ -1,0 +1,9 @@
+.tooltip[data-placement="top"]:hover::after {
+    content: attr(title);
+    background-color: blue;
+    position: absolute;
+    left: 0;
+}
+.tooltip[data-placement="top"] > {
+    
+}
