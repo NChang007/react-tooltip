@@ -1,9 +1,10 @@
 import React from 'react'
+import "./tooltip.css"
 
-const Tooltip = ({children, placement}) => {
+const Tooltip = ({children, placement, tip}) => {
   return (
-    <div className='tooltip' data-placement={placement}>
-        <span title="dace with me">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora voluptate eligendi</span>
+    <div className='tooltip' title={tip} data-placement={placement}>
+        {children}
     </div>
   )
 }

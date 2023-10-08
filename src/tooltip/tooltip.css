@@ -1,8 +1,17 @@
-.tooltip[data-placement="top"]:hover::after {
+.tooltip {
+    background-color: aqua;
+    position: relative;
+}
+.tooltip::after {
     content: attr(title);
-    background-color: blue;
     position: absolute;
-    left: 0;
+}
+.tooltip:hover{
+    background-color: blue;
+    width: 200px;
+    height: auto;
+    /* position: absolute; */
+    /* left: 0; */
 }
 .tooltip[data-placement="top"] > {
     

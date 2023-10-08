@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <Tooltip position={'top'}>
+      <Tooltip position={'top'} tip={"test your might"}>
         <h1>Nelson Chang</h1>
       </Tooltip>
     </>
